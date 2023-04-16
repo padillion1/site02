@@ -1,0 +1,135 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+body {
+    font-family: 'Pattaya', sans-serif;
+    
+}
+
+.container{
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 46px;
+    background-color: #ffffff;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.logo{
+    color: #773de3;
+}
+
+.nav-list{
+    display: flex;
+    column-gap: 50px;
+    font-family: 500;
+    font-size: 14px;
+
+}
+
+.nav-link{
+    color: #000;
+
+}
+
+.nav-link.active{
+    color: #e97a1f; 
+}
+.nav-link.News{
+    color:#52c8be;
+}
+.nav-link.Store{
+    color: #8aee73;
+}
+.nav-link.Log{
+    color: #f0ed44;
+
+}
+
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header-content{
+    margin-top: 270px;
+    max-width: 500px;
+}
+
+.header-heading{
+    color: #AB0C0C;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 128px;
+}
+
+.contacts{
+    padding: 90px 0;
+    text-align: center;
+
+}
+
+.contacts-title{
+    font-size: 36px;
+    margin-bottom: 40px;
+    color:#e074ba;
+
+}
+
+.contacts-content{
+    margin-bottom: 40px;
+    font-size: 18px;
+
+}
+
+.contacts-button{
+    margin-bottom: 80px;
+
+}
+.button{
+    display: inline-block;
+    padding: 7px 22px;
+    background-color:#d47474;
+    border-radius: 30px;
+    font-size: 18px;
+    color:#ffffff;
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+
+}
+
+.button:hover, .button:focus{
+    background-color:#e38a8a;
+
+}
+
+.btn:active{
+    position: relative;
+    top: 1px;
+    background-color:#9f3c3c;
+
+}
+
+.contacts-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-bottom: 40px;
+
+}
+
+.contacts-footer{
+    margin-bottom: 40px;
+
+}
